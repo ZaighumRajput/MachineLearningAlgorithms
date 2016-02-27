@@ -25,6 +25,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AdalineGD.py" />
+    <Compile Include="PlotDecisionRegions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MachineLearningAlgorithms.py" />
     <Compile Include="Perceptron.py">
       <SubType>Code</SubType>
