@@ -24,12 +24,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AdalineGD.py" />
-    <Compile Include="PlotDecisionRegions.py">
+    <Compile Include="PerceptronAndAdaline\AdalineGD.py" />
+    <Compile Include="PerceptronAndAdaline\AdalineSGD.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PerceptronAndAdaline\PlotDecisionRegions.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MachineLearningAlgorithms.py" />
-    <Compile Include="Perceptron.py">
+    <Compile Include="PerceptronAndAdaline\Perceptron.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -37,8 +40,11 @@
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.5" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TrainingAdaline.ipynb" />
-    <Content Include="TrainingPerceptron.ipynb" />
+    <Content Include="PerceptronAndAdaline\TrainingAdaline.ipynb" />
+    <Content Include="PerceptronAndAdaline\TrainingPerceptron.ipynb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PerceptronAndAdaline\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

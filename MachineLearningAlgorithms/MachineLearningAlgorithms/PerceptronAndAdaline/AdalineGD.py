@@ -62,7 +62,7 @@ class AdalineGD(object):
         """Return class label after unit setp"""
         return np.where(self.activation(X) >= 0.0, 1, -1)
 
-
+    
 
 
 
